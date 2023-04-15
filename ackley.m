@@ -29,3 +29,4 @@ function [out]=ackley(in)
        -20*exp(-0.2*sqrt((1/n).*sum(x.^2,2))) ...
        -exp((1/n).*sum(cos(2*pi*x),2)));
  return
+ end
